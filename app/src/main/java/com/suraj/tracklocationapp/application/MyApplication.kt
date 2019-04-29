@@ -22,7 +22,6 @@ class MyApplication : Application() {
             .fallbackToDestructiveMigration()
             .allowMainThreadQueries()
             .build()
-
         createNotificationChannel()
     }
 
